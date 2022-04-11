@@ -62,9 +62,7 @@ const intitialState = {
             col: 3,
             value: null
         },
-    },
-
-   
+    },   
 }
 
 const FieldItems = (state = intitialState, action) =>{
@@ -74,8 +72,7 @@ const FieldItems = (state = intitialState, action) =>{
            
             return{
                 ...state,
-                field: action.payload,
-               
+                field: action.payload               
             }    
 
         default: return state

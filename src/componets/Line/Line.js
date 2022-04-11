@@ -7,8 +7,7 @@ const Line = ({name}) => {
     let {winningLine } = useSelector(state=> state.Game);
 
     const position = winningLine[name];
-    console.log (position);
-
+    
     if (position){
 
         const classContent = `line__${name} line_${name}-${position}`
@@ -19,8 +18,6 @@ const Line = ({name}) => {
     } else {
         return null
     }
-
-
 }
 
 export default Line;

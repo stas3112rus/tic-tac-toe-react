@@ -1,5 +1,5 @@
 import { useDispatch, useSelector  } from 'react-redux';
-import { useEffect, useCallback, useMemo } from 'react';
+import { useMemo } from 'react';
 import {itemFetched, addStep, nextStep, isWinner} from '../../actions/action'
 
 import './Item.scss'
