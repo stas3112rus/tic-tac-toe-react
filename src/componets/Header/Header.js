@@ -9,6 +9,8 @@ const Header = () => {
     const getHeader = () => {
         if (stepCount === 0) return "Для начала игры щелкните по полю"
 
+        if (stepCount === 9) return "Ничья!"
+
         if (!winner) {
             return `Сейчас ходит ${currentStep}`
         } else {

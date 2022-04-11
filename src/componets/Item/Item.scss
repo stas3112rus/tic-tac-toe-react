@@ -1,9 +1,11 @@
 .field{
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
-    margin-top: 30px;
-    position: relative;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    margin-top: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
  
     &__item{
          display: flex;
@@ -30,3 +32,19 @@
      border-bottom: none;
     }
  }
+
+ @media (max-width: 621px) {
+     .field {
+        
+        grid-template-columns: repeat(3, 150px);
+        grid-template-rows: repeat(3, 150px);
+     }     
+ }
+
+ @media (max-width: 456px) {
+    .field {
+       margin: auto;
+       grid-template-columns: repeat(3, 100px);
+       grid-template-rows: repeat(3, 100px);
+    }     
+}

@@ -1,4 +1,3 @@
-import './outside.scss'
 import FieldItem from '../Item/Item'
 import Header from '../Header/Header'
 import Line from '../Line/Line'
@@ -16,18 +15,13 @@ const Outside = () => {
 
     return (
         <>
-            <Header/>
-
-            <div className="container">
-                <div className="field">
-                
+            <Header/>            
+            <div className="field">            
                 {ceils().map(ceil=> ceil)}
-
                 <Line name='vertical'/>
                 <Line name='horizontal'/>
                 <Line name='dioginal'/>
-                </div>
-            </div>
+            </div>        
         </>
     )
 }
