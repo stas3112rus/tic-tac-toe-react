@@ -1,5 +1,7 @@
 ///////////////////////
-Game Tic Tac Toe was created by Stas Yudin at 11.04.22
+
+
+Game Tic Tac Toe was created by Stas Yudin on 11.04.22
 
 On this Project was used 
 - React
@@ -12,6 +14,8 @@ App is cross-browser
 Project is laid out width grid network
 
 I've spent about 8 hours on this project
+
+
 //////////////////
 
 
