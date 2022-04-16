@@ -49,6 +49,12 @@ const Game = (state = intitialState, action) => {
                 currentStep: state.currentStep === "X" ? 'O': 'X',
                 stepCount: state.stepCount +1
             }
+        case 'START_AGAIN' : {
+            console.log("game")
+                return{
+                    ...intitialState                    
+                }
+            }  
         
         default: return state
     }

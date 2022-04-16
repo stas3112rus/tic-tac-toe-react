@@ -26,6 +26,12 @@ export const isWinner = (winningLine) =>{
     }
 }
 
+export const startAgain = () => {
+    return {
+        type: "START_AGAIN"
+    }
+}
+
 
 
 

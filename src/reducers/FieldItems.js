@@ -73,7 +73,13 @@ const FieldItems = (state = intitialState, action) =>{
             return{
                 ...state,
                 field: action.payload               
-            }    
+            }
+        case 'START_AGAIN' : {
+            console.log("item")
+            return {
+                ...intitialState
+            }
+        }  
 
         default: return state
     }

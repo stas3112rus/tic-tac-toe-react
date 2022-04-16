@@ -1,6 +1,7 @@
 import FieldItem from '../Item/Item'
 import Header from '../Header/Header'
 import Line from '../Line/Line'
+import StartAgain from '../StartAgain/StartAgain'
 
 const Outside = () => {
 
@@ -15,7 +16,8 @@ const Outside = () => {
 
     return (
         <>
-            <Header/>            
+            <Header/>
+            <StartAgain/>         
             <div className="field">            
                 {ceils().map(ceil=> ceil)}
                 <Line name='vertical'/>
