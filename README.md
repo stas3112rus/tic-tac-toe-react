@@ -15,6 +15,8 @@ Project is laid out width grid network
 
 I've spent about 8 hours on this project
 
+You can try to playing by link https://tic-tac-toe-start.herokuapp.com/
+
 
 //////////////////
 
